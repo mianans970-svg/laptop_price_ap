@@ -1,0 +1,156 @@
+{
+  "best_model": "Hist Gradient Boosting",
+  "cv_rmse_pkr": 88879.9730069119,
+  "cv_r2": 0.8307311509471047,
+  "cv_mape": 0.1478371420849348,
+  "eur_to_pkr": 311.69,
+  "sklearn_version": "1.8.0",
+  "features": [
+    "Company",
+    "TypeName",
+    "Inches",
+    "Screen_Width",
+    "Screen_Height",
+    "Touchscreen",
+    "IPS_Panel",
+    "Cpu_Family",
+    "Cpu_Speed_GHz",
+    "Ram_GB",
+    "SSD_GB",
+    "HDD_GB",
+    "Gpu_Brand",
+    "OpSys",
+    "Weight_kg"
+  ],
+  "categories": {
+    "Company": [
+      "Acer",
+      "Apple",
+      "Asus",
+      "Chuwi",
+      "Dell",
+      "Fujitsu",
+      "Google",
+      "HP",
+      "Huawei",
+      "LG",
+      "Lenovo",
+      "MSI",
+      "Mediacom",
+      "Microsoft",
+      "Razer",
+      "Samsung",
+      "Toshiba",
+      "Vero",
+      "Xiaomi"
+    ],
+    "TypeName": [
+      "2 in 1 Convertible",
+      "Gaming",
+      "Netbook",
+      "Notebook",
+      "Ultrabook",
+      "Workstation"
+    ],
+    "Cpu_Family": [
+      "AMD A-Series",
+      "AMD E-Series",
+      "AMD FX",
+      "Atom",
+      "Celeron",
+      "Core M",
+      "Core i3",
+      "Core i5",
+      "Core i7",
+      "Pentium",
+      "Ryzen",
+      "Samsung Exynos",
+      "Xeon"
+    ],
+    "Gpu_Brand": [
+      "AMD",
+      "ARM",
+      "Intel",
+      "Nvidia"
+    ],
+    "OpSys": [
+      "Android",
+      "Chrome OS",
+      "Linux",
+      "No OS",
+      "Windows 10",
+      "Windows 10 S",
+      "Windows 7",
+      "macOS"
+    ]
+  },
+  "numeric": {
+    "Inches": {
+      "min": 10.1,
+      "max": 18.4,
+      "default": 15.6
+    },
+    "Cpu_Speed_GHz": {
+      "min": 0.9,
+      "max": 3.6,
+      "default": 2.5
+    },
+    "Weight_kg": {
+      "min": 0.69,
+      "max": 4.7,
+      "default": 2.04
+    }
+  },
+  "resolutions": [
+    "1920x1080",
+    "1366x768",
+    "3840x2160",
+    "3200x1800",
+    "2560x1440",
+    "1600x900",
+    "2560x1600",
+    "2304x1440",
+    "2256x1504",
+    "1920x1200",
+    "1440x900",
+    "2880x1800",
+    "2400x1600",
+    "2160x1440",
+    "2736x1824"
+  ],
+  "default_resolution": "1920x1080",
+  "ram_options": [
+    2,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24,
+    32,
+    64
+  ],
+  "ssd_options": [
+    0,
+    8,
+    16,
+    32,
+    64,
+    128,
+    180,
+    240,
+    256,
+    512,
+    768,
+    1024
+  ],
+  "hdd_options": [
+    0,
+    32,
+    128,
+    500,
+    508,
+    1024,
+    2048
+  ]
+}
